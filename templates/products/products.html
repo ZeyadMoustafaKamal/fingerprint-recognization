@@ -1,0 +1,18 @@
+
+
+
+{% block contener %}
+
+{% for z in pro %}
+
+<h1>{{z.id}}</h1>
+<h1>{{z.name}}</h1>
+<h1>{{z.datetime }}</h1>
+<img src="{{z.image.url }}" alt="">
+
+{% endfor %}
+
+
+
+{% endblock %}
+
